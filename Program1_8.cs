@@ -119,9 +119,9 @@ namespace F1L8
             int k = int.Parse(Console.ReadLine());
             Console.Write("L = ");
             int l = int.Parse(Console.ReadLine());
-            if ((n*n)%2==0)
+            if ((k+l)%2==0)
             {
-                Console.WriteLine("Back!");
+                Console.WriteLine("Black!");
             }
             else
             {
